@@ -15,7 +15,9 @@ public class Comic extends Book {
 	public String getTitle(){
 		return Title;
 	}
-	
+	public void setTitle(String Title){
+		this.Title=Title;
+	}
 	@Override
 	public String toString() {
 		return "Title: "+Title+" | Age of main character: "+ageOfMainCharacter;

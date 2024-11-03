@@ -13,7 +13,7 @@ public class OldSelection {
 		
 		return switch(o){
 			case Fiction f-> f.getName();
-			case TextBook t-> t.subject();
+			case TextBook t-> t.getSubject();
 			case Comic c-> c.getTitle();
 			default -> "";
 		};

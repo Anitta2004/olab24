@@ -9,8 +9,8 @@ public class TextBook extends Book {
 	}
 
 	// TODO : create a getter if required.
-	public String getTitle(){
-		return title;
+	public String getSubject(){
+		return subject;
 	}
 	
 	// TODO: Create a setter if required
@@ -18,7 +18,7 @@ public class TextBook extends Book {
 	// TODO: write a toString method
 	@Override
 	public String toString() {
-		return "Title: "+getTitle();
+		return "Title: "+getSubject();
 	}
 
 }
